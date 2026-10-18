@@ -1,0 +1,30 @@
+# Youssef El Harchaoui — Junior Architect, Tétouan, Morocco
+
+> Portfolio of Youssef El Harchaoui, a junior Moroccan architect (Diplôme d’Architecte, ENA Tétouan, 2025). He designs housing, public facilities, museums and heritage landscapes in northern Morocco, from first sketch to construction detail. Based in Tétouan; open to architect positions and collaborations. Speaks Arabic, French, English and some Spanish.
+
+Jeune architecte marocain diplômé de l’École Nationale d’Architecture de Tétouan (2025), basé à Tétouan. Logement, équipements publics, musées et paysages patrimoniaux dans le nord du Maroc.
+
+## Profile
+
+- Education: Diplôme d’Architecte (Bac+6), École Nationale d’Architecture (ENA) Tétouan, 2019–2025; engineering sciences (Bac+1), ENSA Tanger, 2018–2019
+- Experience: Architect at Cabinet Aamiar (Tétouan) and Cabinet Badr Eddine Mohamed El Ayadi (Larache), 2025–2026; architecture and urban planning intern, Commune Urbaine de Tétouan, 2024; site intern, Cabinet Choukri Bouthaina (Larache), 2020
+- Software: Revit, Archicad, AutoCAD, Rhino, SketchUp, Lumion, V-Ray, Photoshop, InDesign, GIS (basics)
+- Languages: Arabic (native), French (fluent), English (fluent), Spanish (beginner)
+- Location: Tétouan, Tanger-Tétouan-Al Hoceïma, Morocco
+
+## Projects
+
+- [View Center Tétouan](projects/view-center.html): Shopping centre, Tétouan, 2024. A 2,650 m² shopping centre in Tétouan whose sinuous white facade and arched roof echo the surrounding hills.
+- [Résidence Seniors (EHPAD)](projects/residence-seniors.html): Senior housing and care home, Cabo Negro, Tétouan, 2024. A senior residence of five modular volumes with mashrabiya screens, timber-effect cladding and shared care services.
+- [Lixus, renaissance of a historic landscape](projects/lixus.html): Urban and landscape heritage project, Lixus, Larache, 2025. A heritage and tourism park that reveals the Phoenician and Roman ruins of Lixus with light, reversible interventions.
+- [Archaeology Museum, Lixus](projects/musee-archeologie.html): Museum, Lixus, Larache, 2025. An organic archaeology museum with a concrete frame and a fibreglass envelope, the heart of the Lixus project.
+- [Pavillons du Repos](projects/pavillons-du-repos.html): Eco-tourism lodging, Lixus, Larache, 2025. Modular eco-tourism lodging pavilions with arched bays and terracotta brick screens.
+- [Livestock Market, Tétouan](projects/marche-aux-bestiaux.html): Public facility, Tétouan, 2025. A livestock market organised by clear flows under an undulating lattice canopy, with a mosque and sanitary blocks.
+- [Collective Housing, Tangier](projects/habitat-collectif-tanger.html): Collective housing, Tangier. Staggered housing blocks around a central garden, with double-aspect flats and play and sports areas.
+
+## Contact
+
+- Email: youssef58yu@gmail.com
+- Phone / WhatsApp: +212 6 59 28 53 55
+- LinkedIn: https://www.linkedin.com/in/youssef-el-harchaoui-a79a383a1
+- CV (PDF): assets/docs/cv-youssef-el-harchaoui.pdf

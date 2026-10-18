@@ -1,0 +1,28 @@
+{
+  "name": "Youssef El Harchaoui — Architect",
+  "short_name": "Y. El Harchaoui",
+  "description": "Portfolio of Youssef El Harchaoui, junior architect in Tétouan, Morocco.",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#121110",
+  "theme_color": "#121110",
+  "icons": [
+    {
+      "src": "/assets/brand/favicon-light-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/favicon-light-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/favicon-light-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
