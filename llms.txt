@@ -20,7 +20,6 @@ Jeune architecte marocain diplômé de l’École Nationale d’Architecture de 
 - [Archaeology Museum, Lixus](projects/musee-archeologie.html): Museum, Lixus, Larache, 2025. An organic archaeology museum with a concrete frame and a fibreglass envelope, the heart of the Lixus project.
 - [Pavillons du Repos](projects/pavillons-du-repos.html): Eco-tourism lodging, Lixus, Larache, 2025. Modular eco-tourism lodging pavilions with arched bays and terracotta brick screens.
 - [Livestock Market, Tétouan](projects/marche-aux-bestiaux.html): Public facility, Tétouan, 2025. A livestock market organised by clear flows under an undulating lattice canopy, with a mosque and sanitary blocks.
-- [Collective Housing, Tangier](projects/habitat-collectif-tanger.html): Collective housing, Tangier. Staggered housing blocks around a central garden, with double-aspect flats and play and sports areas.
 
 ## Contact
 

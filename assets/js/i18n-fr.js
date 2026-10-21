@@ -52,7 +52,7 @@ window.I18N_FR = {
   "st.xp": "Expériences professionnelles",
   "st.lang": "Langues parlées",
   /* projects */
-  "projects.title": "Sept projets, de la <em>fenêtre</em> au paysage entier.",
+  "projects.title": "Six projets, de la <em>fenêtre</em> au paysage entier.",
   "projects.body": "Projets académiques réalisés à l’ENA de Tétouan : équipements publics, logement, patrimoine et paysage. Ouvrez un projet pour ses plans, rendus et détails.",
   /* pi */
   "pi.project": "Projet",
@@ -66,7 +66,6 @@ window.I18N_FR = {
   "pn.musee-archeologie": "Musée d’archéologie",
   "pn.pavillons-du-repos": "Pavillons du Repos",
   "pn.marche-aux-bestiaux": "Marché aux bestiaux",
-  "pn.habitat-collectif-tanger": "Habitat collectif",
   /* pt */
   "pt.view-center": "Centre commercial",
   "pt.residence-seniors": "EHPAD",
@@ -74,7 +73,6 @@ window.I18N_FR = {
   "pt.musee-archeologie": "Musée",
   "pt.pavillons-du-repos": "Hébergement éco-touristique",
   "pt.marche-aux-bestiaux": "Équipement public",
-  "pt.habitat-collectif-tanger": "Logement collectif",
   /* exp */
   "exp.title": "Du chantier à la <em>table à dessin</em>.",
   "exp.work": "Expériences",
@@ -112,7 +110,7 @@ window.I18N_FR = {
   "faq.q1": "Qui est Youssef El Harchaoui ?",
   "faq.a1": "Youssef El Harchaoui est un jeune architecte marocain. Diplômé en 2025 de l’École Nationale d’Architecture (ENA) de Tétouan (Bac+6), il travaille depuis comme architecte au sein du Cabinet Aamiar à Tétouan et du Cabinet Badr Eddine Mohamed El Ayadi à Larache.",
   "faq.q2": "Quels types de projets a-t-il conçus ?",
-  "faq.a2": "Son portfolio réunit sept projets dans le nord du Maroc : un centre commercial et un EHPAD à Tétouan, un parc patrimonial, un musée d’archéologie et des pavillons d’hébergement à Lixus près de Larache, un marché aux bestiaux à Tétouan et un habitat collectif à Tanger.",
+  "faq.a2": "Son portfolio réunit six projets dans le nord du Maroc : un centre commercial et un EHPAD à Tétouan, un parc patrimonial, un musée d’archéologie et des pavillons d’hébergement à Lixus près de Larache, ainsi qu’un marché aux bestiaux à Tétouan.",
   "faq.q3": "Quels logiciels maîtrise-t-il ?",
   "faq.a3": "Revit, Archicad, AutoCAD et Rhino pour le BIM et le dessin ; SketchUp, Lumion et V-Ray pour la modélisation et le rendu ; Photoshop et InDesign pour la mise en page, avec une initiation aux SIG.",
   "faq.q4": "Où est-il basé et quelles langues parle-t-il ?",
@@ -136,23 +134,6 @@ window.I18N_FR = {
   "ft.top": "Haut de page ↑",
   /* lb */
   "lb.help": "Molette / pincer pour zoomer · glisser pour déplacer",
-  /* hc */
-  "hc.kicker": "Habitat collectif, Tanger",
-  "hc.t1": "Habitat",
-  "hc.t2": "collectif",
-  "hc.lede": "Tanger, entre urbanité et qualité de vie.",
-  "hc.prog": "Habitat collectif",
-  "hc.h2": "Une densité qui reste <em>un chez-soi</em>.",
-  "hc.p1": "Ce projet d’habitat collectif à Tanger propose une approche contemporaine du logement, conciliant densité urbaine, confort résidentiel et qualité des espaces de vie. À travers une organisation fonctionnelle et une attention particulière portée à la lumière naturelle, à la ventilation et aux espaces extérieurs, il offre un cadre de vie agréable et adapté aux besoins des habitants.",
-  "hc.p2": "La disposition des masses en alternant les angles crée une dynamique visuelle et maximise les vues pour chaque bâtiment, et la translation des volumes donne deux façades à la majorité des appartements. L’espace vert généreux, aménagé en jardin avec aires de jeux et équipements sportifs, favorise la convivialité et le vivre-ensemble.",
-  "hc.f1": "Masses décalées suivant le terrain",
-  "hc.f2": "Deux façades pour la majorité",
-  "hc.f3": "Jardin central, aires de jeux et sport",
-  "hc.f4": "Selon la topographie, les vues et l’ensoleillement",
-  "hc.masseT": "Un jardin au cœur de <em>l’îlot</em>.",
-  "hc.drawT": "Trois types d’immeubles, <em>un îlot</em>.",
-  "hc.tab1": "Façades & coupes",
-  "hc.tab2": "Plans types",
   /* m */
   "m.prog": "Programme",
   "m.loc": "Lieu",

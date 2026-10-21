@@ -9,6 +9,7 @@
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const fastIntro = matchMedia('(max-width: 900px)').matches;
   const store = {
     get(k) { try { return localStorage.getItem(k); } catch { return null; } },
     set(k, v) { try { localStorage.setItem(k, v); } catch {} },
@@ -89,13 +90,16 @@
   const loader = $('.loader');
   function revealPage() {
     document.body.classList.add('is-loaded');
+    const revealDelay = !loader || reduce ? 0 : fastIntro ? 350 : 900;
     setTimeout(() => {
       document.body.classList.remove('is-loading');
       if (loader) loader.style.visibility = 'hidden';
       startHero();
-    }, loader && !reduce ? 900 : 0);
+    }, revealDelay);
   }
-  if (loader) {
+  if (loader && fastIntro) {
+    revealPage();
+  } else if (loader) {
     const countEl = $('#loaderCount');
     const bar = $('.loader__bar span');
     const heroImg = $('.hero__slide img');
@@ -616,7 +620,7 @@
      --------------------------------------------------------- */
   $$('.js-year').forEach(el => (el.textContent = new Date().getFullYear()));
   const saved = store.get('lang');
-  applyLang(saved || ((navigator.language || '').toLowerCase().startsWith('fr') ? 'fr' : 'en'));
+  applyLang(saved || ((navigator.language || '').toLowerCase().startsWith('en') ? 'en' : 'fr'));
   layoutHScroll();
   onScroll();
 })();

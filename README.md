@@ -7,7 +7,7 @@ Static website (HTML, CSS, JS). No build step, no framework.
 ```
 index.html              Home: hero, profile, projects, experience, FAQ, contact
 404.html                Page shown for broken links
-projects/               One page per project (7)
+projects/               One page per project (6)
 assets/
   css/styles.css        All styles
   js/main.js            Interactions (slideshow, tabs, viewer, timeline, header)

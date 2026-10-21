@@ -31,3 +31,5 @@ User-agent: CCBot
 Allow: /
 
 # A plain-text summary for language models lives at /llms.txt
+
+Sitemap: https://youssef-el-harchaoui.vercel.app/sitemap.xml

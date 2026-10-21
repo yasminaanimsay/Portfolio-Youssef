@@ -69,6 +69,9 @@ body::after {
 .loader__bar { height: 1px; background: var(--night-line); margin-top: 24px; }
 .loader__bar span { display: block; height: 100%; width: 0; background: var(--paper); transition: width .2s linear; }
 body.is-loaded .loader { transform: translateY(-100%); }
+@media (max-width: 900px) {
+  .loader { transition-duration: .35s; }
+}
 
 /* =========================================================
    CURSOR + PROGRESS
