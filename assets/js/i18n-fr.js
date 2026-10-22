@@ -8,6 +8,7 @@ window.I18N_FR = {
   "nav.cv": "CV ↓",
   "nav.cvLong": "Télécharger le CV",
   "nav.all": "Tous les projets",
+  "cta.bookCall": "Réserver un appel",
   /* hero */
   "hero.lede": "Je conçois des bâtiments de la première esquisse au détail technique : logement, équipements publics et paysages patrimoniaux dans le nord du Maroc.",
   "hero.showing": "À l’écran",

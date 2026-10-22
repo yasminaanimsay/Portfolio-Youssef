@@ -72,6 +72,30 @@
         if (wi < words.length - 1) el.appendChild(document.createTextNode(' '));
       });
     });
+    kernSplit();
+  }
+
+  // Letters in inline-block spans lose the font's kerning (e.g. the "Yo" in Youssef
+  // ends up too far apart). Measure each word as plain text and put the gaps back.
+  function kernSplit() {
+    $$('.split .wd').forEach(wd => {
+      const chars = [...wd.querySelectorAll('.ch')];
+      if (chars.length < 2) return;
+      chars.forEach(c => { c.style.marginRight = ''; });
+      const probe = document.createElement('span');
+      probe.style.cssText = 'position:absolute;left:0;top:0;visibility:hidden;white-space:pre;pointer-events:none';
+      probe.textContent = wd.textContent;
+      wd.appendChild(probe);
+      const text = probe.firstChild, range = document.createRange();
+      const natural = chars.map((_, i) => { range.setStart(text, i); range.setEnd(text, i + 1); return range.getBoundingClientRect().left; });
+      probe.remove();
+      const split = chars.map(c => c.getBoundingClientRect().left);
+      const fs = parseFloat(getComputedStyle(wd).fontSize) || 1;
+      for (let i = 1; i < chars.length; i++) {
+        const diff = (natural[i] - natural[i - 1]) - (split[i] - split[i - 1]);
+        if (Math.abs(diff) > 0.3) chars[i - 1].style.marginRight = (diff / fs).toFixed(4) + 'em';
+      }
+    });
   }
 
   function splitWords() {
@@ -425,7 +449,7 @@
     }));
   });
   function updatePills() { pills.forEach(f => f()); }
-  document.fonts && document.fonts.ready.then(updatePills);
+  document.fonts && document.fonts.ready.then(() => { updatePills(); kernSplit(); });
 
   /* ---------------------------------------------------------
      Colour swatches (click to copy)
